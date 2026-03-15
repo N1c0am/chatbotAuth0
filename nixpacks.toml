@@ -1,0 +1,11 @@
+[phanes.setup]
+nixPkgs = ["bun"]
+
+[phases.install]
+cmds = ["bun install"]
+
+[phases.build]
+cmds = []
+
+[start]
+cdm = "bun run start"
